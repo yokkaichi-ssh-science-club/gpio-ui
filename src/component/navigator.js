@@ -5,18 +5,7 @@ module.exports=require("./navigator.html")({
     }
   },
   computed:{
-    openSide:{
-      get(){
-        return this.$store.state.openSide
-      },
-      set(v){
-        this.$store.commit("openSide",v)
-        return v
-      }
-    },
-    bgClass(){
-      return this.$store.state.bgClass
-    },
+    
     error:{
       get(){
         return this.$store.state.error
@@ -28,6 +17,9 @@ module.exports=require("./navigator.html")({
     },
     pageStack(){
       return this.$store.state.pageStack
+    },
+    options(){
+      return this.$store.state.navOptions
     }
   },
   methods:{

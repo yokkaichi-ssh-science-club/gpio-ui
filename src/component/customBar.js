@@ -3,9 +3,7 @@ module.exports=require("./customBar.html")({
     return {}
   },
   methods:{
-    menuOpen(){
-      this.$store.commit("openSide",true)
-    }
+    
   },
   store:require("../store.js"),
   computed:{
@@ -13,5 +11,5 @@ module.exports=require("./customBar.html")({
       return this.modifier
     }
   },
-  props:["title","menu","modifier"]
+  props:["title","modifier","backLabel"]
 })
