@@ -1,0 +1,60 @@
+$dotSize:15px;
+$maxImgSize:250px;
+
+#tutorial{
+  .dot{
+    text-align:center;
+    color:#fff;
+    position:absolute;
+    bottom:20px;
+    left:0;
+    right:0;
+    width:100%;
+    .dots{
+      display:inline-block;
+      width:$dotSize;
+      height:$dotSize;
+      border-radius:$dotSize/2;
+      border:1px solid #fff;
+      background-color:none;
+      margin:2px;
+      &.active{
+        background-color:#fff;
+      }
+    }
+  }
+  ons-carousel-item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-content{
+    color:#fff;
+    width:90%;
+    max-width:400px;
+    text-align:center;
+    .text{
+      
+    }
+    .title{
+      font-size:1.4em;
+    }
+    .img img{
+      max-height:$maxImgSize;
+      max-width:$maxImgSize;
+    }
+  }
+}
+#hello{
+  text-align:center;
+  .btnWrap{
+    position: absolute;
+    width:100%;
+    bottom:0px;
+    ons-button{
+      display:block;
+      margin:10px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 module.exports=require("./navigator.html")({
   data(){
     return {
-      pageStack:[require("./home.js")]
+      
     }
   },
   computed:{
@@ -25,6 +25,9 @@ module.exports=require("./navigator.html")({
         this.$store.commit("setError",v)
         return v
       }
+    },
+    pageStack(){
+      return this.$store.state.pageStack
     }
   },
   methods:{

@@ -1,5 +1,6 @@
 require('onsenui/css/onsenui.min.css')
 require('onsenui/css/onsen-css-components.min.css')
+require('./scss/index.scss')
 require('babel-polyfill')
 const Vue = require("vue/dist/vue.runtime.min")
 const VueOnsen = require('vue-onsenui')
@@ -8,7 +9,7 @@ const Vuex = require("vuex")
 Vue.use(VueOnsen)
 Vue.use(Vuex)
 
-Vue.component('custom-bar', require("./component/customBar.js"))
+Vue.component('custom-bar', require("./component/customBar"))
 
 exports.vm= new Vue({
   el:"#app",
