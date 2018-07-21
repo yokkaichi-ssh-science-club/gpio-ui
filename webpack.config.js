@@ -5,9 +5,9 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    filename:"./dist/dist.js"
+    filename:"dist/dist.js"
   },
-  mode:"development",
+  mode:"production",
   module: {
     rules: [
       {
