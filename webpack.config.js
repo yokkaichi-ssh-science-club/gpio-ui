@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename:"dist/dist.js"
   },
-  mode:"production",
+  mode:"development",
   module: {
     rules: [
       {

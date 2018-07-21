@@ -45,6 +45,9 @@ module.exports=require("./tutorial.html")({
       }else if(btn.url){
         alert(btn.url)
       }
+    },
+    skip(){
+      this.$store.commit("push",require("./home.js"))
     }
   },
   mounted(){

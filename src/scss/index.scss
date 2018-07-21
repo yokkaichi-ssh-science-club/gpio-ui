@@ -6,10 +6,8 @@ $maxImgSize:250px;
     text-align:center;
     color:#fff;
     position:absolute;
-    bottom:20px;
-    left:0;
-    right:0;
     width:100%;
+    bottom:0;
     .dots{
       display:inline-block;
       width:$dotSize;
@@ -44,6 +42,13 @@ $maxImgSize:250px;
       max-height:$maxImgSize;
       max-width:$maxImgSize;
     }
+  }
+  .skip{
+    color:white;
+    z-index:100;
+  }
+  .toolbar.toolbar--transparent.toolbar--cover-content+.page__background+.page__content{
+    padding-top: 0px !important;
   }
 }
 #hello{
