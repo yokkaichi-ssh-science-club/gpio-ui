@@ -1,6 +1,6 @@
 const carouselItems=[{
   img:null,
-  title:"Gravitional",
+  title:"test_Gravitional",
   text:"Grabitional acce;eratkion",
   color:"#2196f3"
 },{
