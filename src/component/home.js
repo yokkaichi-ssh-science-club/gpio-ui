@@ -1,30 +1,31 @@
+const socket=require("../socket.js")
 module.exports=require("./home.html")({
   data(){
     return {
-      loading:false
+      loading:false,
+      error:false
     }
   },
   computed:{
     
   },
   methods:{
-    claimSession(){
-      (async ()=>{
-        this.loading=true
-        await (new Promise(r=>{
-          setTimeout(r,3000)
-        }))
-        if(Math.random()>0.1){
-          this.$store.commit('navOptions', {
-            animation: "lift-ios",
-            callback: () => this.$store.commit('navOptions', {})
-          });
-          this.$store.commit("push",require("./session"))
-        }
-        this.loading=false
-      })().catch(e=>{
-        this.$store.commit("setError",e)
-      })
+    async claimSession(){
+      this.loading=true
+      try{
+        await socket.claimSession()
+        this.$store.commit('navOptions', {
+          animation: "lift-ios",
+          callback: () => this.$store.commit('navOptions', {})
+        });
+        this.$store.commit("push",require("./session"))
+      }catch(e){
+        this.error=true
+      }
+      this.loading=false
+    },
+    otherEx(){
+      this.$store.commit("push",require("./otherEx"))
     }
   },
   mounted(){

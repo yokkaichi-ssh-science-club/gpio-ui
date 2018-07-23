@@ -1,24 +1,30 @@
+const socket=require("../socket.js")
 module.exports=require("./session.html")({
   data(){
     return {
-      state:0
+      state:0,
+      result:0
     }
   },
   computed:{
     
   },
   methods:{
-    back(){
+    async back(){
+      await socket.endSession()
       this.$store.commit("pop")
     },
-    turnOnMagnet(){
-      this.state=1
+    async turnOnMagnet(){
+      this.state++
+      await socket.enableMagnet()
+      this.state++
     },
-    attached(){
-      this.state=2
+    async attached(){
+      this.state++
     },
-    drop(){
-      this.state=3
+    async drop(){
+      this.state++
+      this.result=await socket.startTime()
     }
   },
   mounted(){

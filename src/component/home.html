@@ -4,8 +4,17 @@
     <v-ons-list-item>
       <v-ons-button modifier="large" :disabled="loading" @click="claimSession">Claim a session</v-ons-button>
     </v-ons-list-item>
-    <v-ons-list-item modifier="chevron tappable">
+    <v-ons-list-item modifier="chevron tappable" @click="otherEx">
       See other experiments
     </v-ons-list-item>
   </v-ons-list>
+  <v-ons-alert-dialog modifier="rowfooter"
+      :visible.sync="error"
+    >
+      <span slot="title">Failed</span>
+      Failed
+      <template slot="footer">
+        <v-ons-alert-dialog-button @click="error = false">Ok</v-ons-alert-dialog-button>
+      </template>
+    </v-ons-alert-dialog>
 </v-ons-page>
