@@ -1,12 +1,12 @@
 const carouselItems=[{
-  img:null,
-  title:"test2_Gravitional",
-  text:"Grabitional acce;eratkion",
+  img:"https://rankers.ajax.jp/img/apple.png",
+  title:"What is gravity?",
+  text:"Gravity is the force by which a planet or other body draws objects toward its center. ",
   color:"#2196f3"
 },{
-  img:null,
-  title:"Gravitional",
-  text:"Grabitional acce;eratkion",
+  img:"https://rankers.ajax.jp/img/formula.png",
+  title:"",
+  text:"Gravity is calculated by formula above.",
   color:"#4caf50",
   buttons:[{
     label:"Learn more",
@@ -14,10 +14,17 @@ const carouselItems=[{
   }]
 },{
   img:null,
-  title:"Acceleration",
-  text:"Grabitional acce;eratkion",
+  title:"About this experiment",
+  text:"Our team did precise experiments to find the value of gravitational acceleration.",
   color:"#ef6c00",
   
+},{
+  img:null,
+  title:"Measuring Methods",
+  text:"We used 4 different theory to measure.
+  1.
+  2.",
+  color:"#ef6c00",  
 },{
   img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
   title:"Acceleration",
