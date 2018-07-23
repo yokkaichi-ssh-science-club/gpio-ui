@@ -21,9 +21,7 @@ const carouselItems=[{
 },{
   img:null,
   title:"Measuring Methods",
-  text:"We used 4 different theory to measure.
-  1.
-  2.",
+  text:"We used 4 different theory to measure.1.2.",
   color:"#ef6c00",  
 },{
   img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
