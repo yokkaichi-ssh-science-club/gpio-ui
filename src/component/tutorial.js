@@ -56,6 +56,6 @@ module.exports=require("./tutorial.html")({
     }
   },
   mounted(){
-    $ons.notification.toast('Try swiping here!',{timeout: 2000})
+    this.$ons.notification.toast('Try swiping here!',{timeout: 2000})
   }
 })
