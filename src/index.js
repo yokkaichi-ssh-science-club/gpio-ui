@@ -1,5 +1,5 @@
 require('onsenui/css/onsenui.min.css')
-require('onsenui/css/onsen-css-components.min.css')
+require('./scss/onsen-css-components.custom.min.css')
 require('./scss/index.scss')
 require('babel-polyfill')
 const Vue = require("vue/dist/vue.runtime.min")
