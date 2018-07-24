@@ -21,5 +21,16 @@
     </v-ons-list-item>
     
   </v-ons-list>
-  
+  <v-ons-alert-dialog :visible="result>0">
+    <span slot="title">Congratulations</span>
+    <p>Gravitional Acceleration has been calculated!</p>
+    <div class="resWrap">
+      <span class="result">{{result/100}}</span>
+      <span class="meterpersecsec">m/s&sup2;</span>
+    </div>
+    <div slot="footer">
+      <div class="alert-dialog-button" @click="other">See more</div>
+      <div class="alert-dialog-button" @click="back">Finish</div>
+    </div>
+  </v-ons-alert-dialog>
 </v-ons-page>

@@ -12,7 +12,7 @@
       :visible.sync="error"
     >
       <span slot="title">Failed</span>
-      Failed
+      Failed to claim a session. Please retry after the other session ended.
       <template slot="footer">
         <v-ons-alert-dialog-button @click="error = false">Ok</v-ons-alert-dialog-button>
       </template>

@@ -1,4 +1,5 @@
 const socket=require("../socket.js")
+const util=require("../util.js")
 module.exports=require("./session.html")({
   data(){
     return {
@@ -25,6 +26,11 @@ module.exports=require("./session.html")({
     async drop(){
       this.state++
       this.result=await socket.startTime()
+    },
+    async other(){
+      await this.back()
+      await util.shortWait()
+      this.$store.commit("push",require("./otherEx"))
     }
   },
   mounted(){

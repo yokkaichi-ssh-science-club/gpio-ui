@@ -7,7 +7,9 @@ module.exports=require("./otherEx.html")({
     
   },
   methods:{
-    
+    otherEx(itemName){
+      this.$store.commit("push",{extends:require("./tutorial"),onsNavigatorProps:{itemName}})
+    }
   },
   mounted(){
     

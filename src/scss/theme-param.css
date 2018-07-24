@@ -1,17 +1,16 @@
 /* Custom Theme for Onsen UI 2.10.4 */
 
-
 :root {
   /* variables for iOS components */
   --background-color: #efeff4;
   --text-color: #1f1f21;
   --sub-text-color: #999;
-  --highlight-color: rgba(65,190,104,1);
+  --highlight-color: #32CF62;
   --second-highlight-color: rgba(151,203,77,1);
   --border-color: #ccc;
   --button-background-color: rgba(87,203,123,1);
   --button-cta-background-color: var(--second-highlight-color);
-  --toolbar-background-color: #57CB7B;
+  --toolbar-background-color: rgba(50,207,98,1);
   --toolbar-button-color: rgba(255,255,255,1);
   --toolbar-text-color: rgba(255,255,255,1);
   --toolbar-border-color: #b2b2b2;
@@ -87,7 +86,7 @@
   --material-range-disabled-thumb-color: #b0b0b0;
   --material-range-disabled-thumb-border-color: #eeeeee;
   --material-range-zero-thumb-color: #f2f2f2;
-  --material-toolbar-background-color: #57CB7B;
+  --material-toolbar-background-color: #32CF62;
   --material-toolbar-text-color: rgba(255,255,255,1);
   --material-toolbar-button-color: rgba(255,255,255,1);
   --material-segment-background-color: #fafafa;

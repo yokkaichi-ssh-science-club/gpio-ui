@@ -16,6 +16,9 @@ module.exports = new Vuex.Store({
     pop(s){
       s.pageStack.pop()
     },
+    replace(s,p){
+      s.pageStack=[p]
+    },
     setError(s,e){
       s.error=e
     },
