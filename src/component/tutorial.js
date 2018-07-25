@@ -56,13 +56,25 @@ const lists = {
     }]
   }],
   "atwood":[{
-    img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
-    title:"atwood",
-    text:"Grabitional acce;eratkion",
-    color:"#78909c",
-    buttons:[{
-      label:"Next"
-    }]
+    img:require("../img/atwood.png"),
+    title:"Atwood Machine",
+    text:"Atwood Machine was invented in the late 18c.This device is used to measure the acceleration of objects.",
+    color:"#62b8e2",
+  },{
+    img:require("../img/atwood.png"),
+    title:"How this works(1)",
+    text:"This machine consists of two objects that has different mass, connected by a string over a pulley.",
+    color:"#62b8e5",
+  },{
+    img:require("../img/atwood.png"),
+    title:"How this works(2)",
+    text:"If you release your hands from the objects, they began to move. By measuring height and time, you can calculate gravitational acceleration.",
+    color:"#62b8e5",
+  },{
+    img:require("../img/grav.png"),
+    title:"Formula",
+    text:"We used a formula above to find the value.",
+    color:"#62b8e5",
   }],
   "aldebaran":[{
     img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
