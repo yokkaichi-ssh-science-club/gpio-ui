@@ -75,6 +75,11 @@ const lists = {
     title:"Formula",
     text:"We used a formula above to find the value.",
     color:"#62b8e5",
+   },{
+    img:require("../img/grav.png"),
+    title:"All right",
+    text:"We'll demonstrate and acutually caluculate the value of gravitational acc.",
+    color:"#62b8e5",
   }],
   "aldebaran":[{
     img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
@@ -110,13 +115,30 @@ const lists = {
     }]
   }],
   "spring":[{
-    img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
-    title:"Acceleration",
-    text:"Grabitional acce;eratkion",
-    color:"#78909c",
-    buttons:[{
-      label:"Next"
-    }]
+    img:require("../img/atwood.png"),
+    title:"Spring Pendulum",
+    text:"Spring pendulum is a physical system where an object is connected to a spring.",
+    color:"#f9ace8",
+  },{
+    img:require("../img/pendulum.png"),
+    title:"How this works",
+    text:"If you pull the object downward, it'll move vertically. By measuring this period, we can calculate the value.(Feel free to usk us for more infos)",
+    color:"#f9ace8",
+  },{
+    img:require("../img/grav.png"),
+    title:"Formula",
+    text:"We used a formula above to find the value.",
+    color:"#f9ace8",
+   },{
+    img:require("../img/grav.png"),
+    title:"Experiment Conditions",
+    text:"We changed the type of spring, the weight of the object, and the length of spring for this experiment.",
+    color:"#f9ace8",
+    },{
+    img:require("../img/pendulum_result_en.png"),
+    title:"Results(1)",
+    text:"",
+    color:"#f9ace8",
   }]
 }
 const util = require("../util")
