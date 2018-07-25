@@ -1,9 +1,9 @@
 const lists = {
   "gravity":[{
-    img:null,
+    img:require("../img/mie.png"),
     title:"Hello.",
     text:"We are Yokkaichi High School in Mie Pref. We'd like to introduce our research.",
-    color:"#a5ad34"
+    color:"#35af55"
   },{
     img:null,
     title:"Purpose",
@@ -11,28 +11,28 @@ const lists = {
     color:"#a5ad34"
    },{
     img:require("../img/fall.png"),
-    title:"What is gravity?",
+    title:"By the way...What is gravity?",
     text:"Gravity is the force by which a planet or other body draws objects toward its center. ",
     color:"#2196f3"
   },{
+    img:require("../img/fall.png"),
+    title:"Gravitational Acceleration",
+    text:"Gravitational acceleration is an expression to indicate the intensity of a gravitational field.",
+    color:"#af7e35"
+  },{
     img:require("../img/grav.png"),
-    title:"",
-    text:"Gravity is calculated by formula above.",
+    title:"How to calculate",
+    text:"It is calculated by formula above.",
     color:"#4caf50",
     buttons:[{
       label:"Learn more",
       url:"https://www.google.co.jp/"
     }]
   },{
-    img:null,
-    title:"Measuring Methods",
-    text:"We did 5 different experiments in all.",
-    color:"#ef6c00",  
-  },{
     img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
-    title:"Acceleration",
-    text:"Grabitional acce;eratkion",
-    color:"#78909c",
+    title:"Measuring Methods",
+    text:"We did 5 different ways to calculate it.Click [Next] to check it out!",
+    color:"#ef6c00",
     buttons:[{
       label:"Next"
     }]
