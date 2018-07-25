@@ -1,5 +1,15 @@
 const lists = {
   "gravity":[{
+    img:null,
+    title:"Hello.",
+    text:"We are Yokkaichi High School in Mie Pref. We'd like to introduce our research.",
+    color:"#a5ad34"
+  },{
+    img:null,
+    title:"Purpose",
+    text:"First of all,our purpose of this research is to find various ways to measure gravitational acc.",
+    color:"#a5ad34"
+   },{
     img:require("../img/fall.png"),
     title:"What is gravity?",
     text:"Gravity is the force by which a planet or other body draws objects toward its center. ",
@@ -15,14 +25,8 @@ const lists = {
     }]
   },{
     img:null,
-    title:"About this experiment",
-    text:"Our team did precise experiments to find the value of gravitational acceleration.",
-    color:"#ef6c00",
-    
-  },{
-    img:null,
     title:"Measuring Methods",
-    text:"We used 4 different theory to measure.1.2.",
+    text:"We did 5 different experiments in all.",
     color:"#ef6c00",  
   },{
     img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
