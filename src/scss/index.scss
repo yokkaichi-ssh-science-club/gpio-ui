@@ -39,6 +39,8 @@ $maxImgSize:450px;
       font-size:1.4em;
     }
     .img img{
+      height:100%;
+      width:100%;
       max-height:$maxImgSize;
       max-width:$maxImgSize;
     }
