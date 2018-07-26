@@ -2,37 +2,35 @@ const io = require("socket.io-client")
 const EventEmitter = require("eventemitter3")
 
 exports=module.exports=new EventEmitter()
-
+let socket;
 exports.connect=()=>new Promise((resolve,reject)=>{
-  
+  socket=io("http://localhost:5000")
+  socket.once('connect', resolve);
+
 })
 
 exports.claimSession=()=>new Promise((resolve,reject)=>{
   //resolve: successfully claimed
   //reject : failed to claim
-  setTimeout(()=>{
-    if(Math.random()>0.3){
-      resolve()
-    }else{
-      reject()
-    }
-  },400+Math.random()*400)
+  socket.emit("claimSession",state=>{
+    if(state){resolve()}else{reject()}
+  })
 })
 
 exports.enableMagnet=()=>new Promise((resolve,reject)=>{
-  setTimeout(()=>{
-    resolve()
-  },300)
+  socket.emit("enableMagnet",state=>{
+    if(state){resolve()}else{reject()}
+  })
 })
 
 exports.startTime=()=>new Promise((resolve,reject)=>{
-  setTimeout(()=>{
-    resolve(978)//x100 m/s^2
-  },1100)
+  socket.emit("startTime",value=>{
+    resolve(value)
+  })
 })
 
 exports.endSession=()=>new Promise((resolve,reject)=>{
-  setTimeout(()=>{
-    resolve()
-  },300)
+  socket.emit("endSession",state=>{
+    if(state){resolve()}else{reject()}
+  })
 })

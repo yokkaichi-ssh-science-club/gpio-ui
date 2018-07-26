@@ -1,3 +1,4 @@
+const socket=require("../socket")
 module.exports=require("./hello.html")({
   data(){
     return {
@@ -7,7 +8,8 @@ module.exports=require("./hello.html")({
     
   },
   methods:{
-    tutorial(){
+    async tutorial(){
+      await socket.connect()
       this.$store.commit("push",{
         extends:require("./tutorial"),
         onsNavigatorProps:{
