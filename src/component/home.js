@@ -1,4 +1,5 @@
 const socket=require("../socket.js")
+const util=require("../util")
 module.exports=require("./home.html")({
   data(){
     return {
@@ -26,6 +27,12 @@ module.exports=require("./home.html")({
     },
     otherEx(){
       this.$store.commit("push",require("./otherEx"))
+    },
+    reference(){
+      this.$store.commit("push",require("./reference"))
+    },
+    source(){
+      util.openUrl("https://github.com/yokkaichi-ssh-science-club")
     }
   },
   mounted(){
