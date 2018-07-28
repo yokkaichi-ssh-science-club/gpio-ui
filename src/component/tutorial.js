@@ -43,14 +43,30 @@ const lists = {
     }]
   }],
   "ffSW":[{
-    img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
-    title:"Acceleration",
-    text:"Grabitional acce;eratkion",
-    color:"#78909c",
-    buttons:[{
-      label:"Next"
-    }]
-  }],
+    title:"Free fall with stopwatch & switch",
+    text:"In this experiment, we made a device that can measure free-fall time of an iron ball accurately.",
+    color:"#62b8e2",
+  },{
+    img:require("../img/ffSW.png"),
+    title:"What we used",
+    text:"We used a stopwatch, an electromagnet, and push switch. By using this, we were able to measure time from the beggining to the end of the free-fall.",
+    color:"#8ac8e6",
+  },{
+    img:require("../img/atwood.png"),
+    title:"How this works #1",
+    text:"You toggle an electromagnet off and release the ball. At the same time, the stopwatch starts. Then, when the ball lands on the push switch, the stopwatch stops.",
+    color:"#8ac8e6",
+  },{
+    img:require("../img/g2yt2.png"),
+    title:"How this works #2",
+    text:"By measuring the free-fall time and the height it dropped, you can find the value of gravitational acceleration.",
+    color:"#8ac8e6",
+  },{
+    img:require("../img/g2yt2.png"),
+    title:"Formula",
+    text:"We used a formula above to calculate the value.",
+    color:"#8ac8e6",
+   }],
   "atwood":[{
     img:require("../img/atwood.png"),
     title:"Atwood Machine",
@@ -111,31 +127,21 @@ const lists = {
     }]
   }],
   "spring":[{
-    img:require("../img/atwood.png"),
+    img:require("../img/spring.png"),
     title:"Spring Pendulum",
     text:"Spring pendulum is a physical system where an object is connected to a spring.",
     color:"#f9ace8",
   },{
     img:require("../img/pendulum.png"),
     title:"How this works",
-    text:"If you pull the object downward, it'll move vertically. By measuring this period, we can calculate the value.(Feel free to usk us for more infos)",
+    text:"If you pull the object downward, it'll move vertically. By measuring this period, you can calculate gravitational acceleration",
     color:"#f9ace8",
   },{
     img:require("../img/grav.png"),
     title:"Formula",
     text:"We used a formula above to find the value.",
     color:"#f9ace8",
-   },{
-    img:require("../img/grav.png"),
-    title:"Experiment Conditions",
-    text:"We changed the type of spring, the weight of the object, and the length of spring for this experiment.",
-    color:"#f9ace8",
-    },{
-    img:require("../img/pendulum_result_en.png"),
-    title:"Results(1)",
-    text:"",
-    color:"#f9ace8",
-  }]
+   }]
 }
 const util = require("../util")
 module.exports=require("./tutorial.html")({
