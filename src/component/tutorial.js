@@ -118,7 +118,7 @@ const lists = {
     color:"#78909c",
   },{
     img:require("../img/aldebaran_en.gif"),
-    title:"By the way...What is Aldebaran Eclipse?",
+    title:"By the way...What is Aldebaran Eclipse? ",
     text:"Watch this gif above. This special eclipse occurs every 17 years. We made a good use of this opportunity and observed it.",
     color:"#78909c",
   },{
