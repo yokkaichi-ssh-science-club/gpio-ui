@@ -25,7 +25,6 @@ const lists = {
     text:"It is calculated by formula above.(t: time, y: height)",
     color:"#4caf50",
   },{
-    img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
     title:"Measuring Methods",
     text:"We did 5 different ways to measure it. Click [Next] button to check it out!",
     color:"#ef6c00",
@@ -66,6 +65,9 @@ const lists = {
     title:"Formula",
     text:"We used a formula above to calculate the value.",
     color:"#8ac8e6",
+    buttons:[{
+      label:"Done"
+    }]
    }],
   "atwood":[{
     img:require("../img/atwood.png"),
@@ -92,6 +94,9 @@ const lists = {
     title:"All right",
     text:"We'll demonstrate and acutually caluculate the value of gravitational acc.",
     color:"#62b8e5",
+     buttons:[{
+      label:"Done"
+    }]
   }],
   "aldebaran":[{
     img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
@@ -141,6 +146,9 @@ const lists = {
     title:"Formula",
     text:"We used a formula above to find the value.",
     color:"#f9ace8",
+    buttons:[{
+      label:"Done"
+    }]
    }]
 }
 const util = require("../util")
