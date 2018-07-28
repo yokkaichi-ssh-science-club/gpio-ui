@@ -20,18 +20,14 @@ const lists = {
     text:"Gravitational acceleration is an expression to indicate the intensity of a gravitational field.",
     color:"#af7e35"
   },{
-    img:require("../img/grav.png"),
+    img:require("../img/g2yt2.png"),
     title:"How to calculate",
-    text:"It is calculated by formula above.",
+    text:"It is calculated by formula above.(t: time, y: height)",
     color:"#4caf50",
-    buttons:[{
-      label:"Learn more",
-      url:"https://www.google.co.jp/"
-    }]
   },{
     img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
     title:"Measuring Methods",
-    text:"We did 5 different ways to calculate it.Click [Next] to check it out!",
+    text:"We did 5 different ways to measure it. Click [Next] button to check it out!",
     color:"#ef6c00",
     buttons:[{
       label:"Next"
@@ -62,18 +58,18 @@ const lists = {
     color:"#62b8e2",
   },{
     img:require("../img/atwood.png"),
-    title:"How this works(1)",
+    title:"How this works #1",
     text:"This machine consists of two objects that has different mass, connected by a string over a pulley.",
     color:"#62b8e5",
   },{
     img:require("../img/atwood.png"),
-    title:"How this works(2)",
-    text:"If you release your hands from the objects, they began to move. By measuring height and time, you can calculate gravitational acceleration.",
+    title:"How this works #2",
+    text:"If you release your hands from the objects, they began to move. By measuring height and time it took, you can calculate gravitational acceleration.",
     color:"#62b8e5",
   },{
-    img:require("../img/grav.png"),
+    img:require("../img/atwood_formula.png"),
     title:"Formula",
-    text:"We used a formula above to find the value.",
+    text:"We used a formula above to calculate the value.",
     color:"#62b8e5",
    },{
     img:require("../img/grav.png"),
