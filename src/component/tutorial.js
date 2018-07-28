@@ -113,36 +113,28 @@ const lists = {
     }]
   }],
   "aldebaran":[{
-    img:require("../img/aldebaran_en.gif"),
     title:"Aldebaran Eclipse",
-    text:"This is Aldebaran",
+    text:"In this experiment, we used Aldebaran Eclipse to calculate gravitational acceleration.",
+    color:"#78909c",
+  },{
+    img:require("../img/aldebaran_en.gif"),
+    title:"By the way...What is Aldebaran Eclipse?",
+    text:"Watch this gif above. This special eclipse occurs every 17 years. We made a good use of this opportunity and observed it.",
+    color:"#78909c",
+  },{
+    title:"How this works",
+    text:"We know the radius of earth and the distance between earth and the moon. So, if we could measure angular velocity of the moon, we can calcutate gravitational acceleration.",
     color:"#78909c",
     buttons:[{
       label:"Next"
     }]
   },{
-    img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
-    title:"Acceleration",
-    text:"Grabitional acce;eratkion",
+    img:require("../img/aldebaran_formula.gif"),
+    title:"Formula",
+    text:"We used a formula above to calculate the value.",
     color:"#78909c",
     buttons:[{
-      label:"Next"
-    }]
-  },{
-    img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
-    title:"Acceleration",
-    text:"Grabitional acce;eratkion",
-    color:"#78909c",
-    buttons:[{
-      label:"Next"
-    }]
-  },{
-    img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
-    title:"Acceleration",
-    text:"Grabitional acce;eratkion",
-    color:"#78909c",
-    buttons:[{
-      label:"Next"
+      label:"Done"
     }]
   }],
   "spring":[{
