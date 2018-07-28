@@ -33,14 +33,28 @@ const lists = {
     }]
   }],
   "ffOpt":[{
-    img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
-    title:"Acceleration",
-    text:"Grabitional acce;eratkion",
-    color:"#78909c",
+    title:"Free fall with optical sensor",
+    text:"In this experiment, we made a device that can measure free-fall time of an iron ball accurately.",
+    color:"#a7f5a9",
+  },{
+    img:require("../img/laser.png"),
+    title:"How this works #1",
+    text:"We used 2 optical sensors (laser) to detect free-fall of the ball.",
+    color:"#a7f5a9",
+  },{
+    img:require("../img/laser.png"),
+    title:"How this works #2",
+    text:"By measuring the time difference between the 2 sensors, you can find the value of gravitational acceleration.",
+    color:"#a7f5a9",
+  },{
+    img:require("../img/g2yt2.png"),
+    title:"Formula",
+    text:"We used a formula above to calculate the value.",
+    color:"#a7f5a9",
     buttons:[{
-      label:"Next"
+      label:"Done"
     }]
-  }],
+   }],
   "ffSW":[{
     title:"Free fall with stopwatch & switch",
     text:"In this experiment, we made a device that can measure free-fall time of an iron ball accurately.",
@@ -53,7 +67,7 @@ const lists = {
   },{
     img:require("../img/atwood.png"),
     title:"How this works #1",
-    text:"You toggle an electromagnet off and release the ball. At the same time, the stopwatch starts. Then, when the ball lands on the push switch, the stopwatch stops.",
+    text:"You toggle off an electromagnet and release the ball. At the same time, the stopwatch starts. Then, when the ball lands on the push switch, the stopwatch stops.",
     color:"#8ac8e6",
   },{
     img:require("../img/g2yt2.png"),
