@@ -113,9 +113,9 @@ const lists = {
     }]
   }],
   "aldebaran":[{
-    img:"https://monya-wallet.github.io/assets/images/screenshot/first.png",
-    title:"Acceleration",
-    text:"Grabitional acce;eratkion",
+    img:require("../img/aldebaran_en.gif"),
+    title:"Aldebaran Eclipse",
+    text:"This is Aldebaran",
     color:"#78909c",
     buttons:[{
       label:"Next"
