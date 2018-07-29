@@ -129,7 +129,7 @@ const lists = {
       label:"Next"
     }]
   },{
-    img:require("../img/aldebaran_formula.gif"),
+    img:require("../img/aldebaran_formula.png"), //png?
     title:"Formula",
     text:"We used a formula above to calculate the value.",
     color:"#78909c",

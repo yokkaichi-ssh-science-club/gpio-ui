@@ -9,7 +9,7 @@ module.exports=require("./hello.html")({
   },
   methods:{
     async tutorial(){
-      //await socket.connect()
+      await socket.connect()
       this.$store.commit("push",{
         extends:require("./tutorial"),
         onsNavigatorProps:{

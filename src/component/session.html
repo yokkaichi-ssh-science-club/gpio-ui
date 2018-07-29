@@ -8,13 +8,15 @@
     <div class="center">On Session</div>
   </v-ons-toolbar>
   <v-ons-list>
-    <v-ons-list-header>1. Turn on the electromagnet</v-ons-list-header>
+    <v-ons-list-header>1. How long is it between upper and lower unit?</v-ons-list-header>
+    <v-ons-list-item><v-ons-input modifier="large" v-model="meter"></v-ons-input></v-ons-list-item>
+    <v-ons-list-header>2. Turn on the electromagnet</v-ons-list-header>
     <v-ons-list-item><v-ons-button @click="turnOnMagnet" modifier="large" :disabled="state!==0">Turn On</v-ons-button></v-ons-list-item>
-    <v-ons-list-header>2. Attach the iron ball to the hollow of the magnet</v-ons-list-header>
+    <v-ons-list-header>3. Attach the iron ball to the hollow of the magnet</v-ons-list-header>
     <v-ons-list-item><v-ons-button @click="attached" modifier="large"  :disabled="state!==2">I attached</v-ons-button></v-ons-list-item>
     <v-ons-list-header>3. Drop the ball and time it falls</v-ons-list-header>
     <v-ons-list-item><v-ons-button @click="drop" modifier="large" :disabled="state!==3">Start</v-ons-button></v-ons-list-item>
-    <v-ons-list-header>4. Gravitional acceleration is calculated.</v-ons-list-header>
+    <v-ons-list-header>5. Gravitional acceleration is calculated.</v-ons-list-header>
     <v-ons-list-item v-show="result>0">
       <div class="center">{{result/100}}</div>
       <div class="right">m/s&sup2;</div>
@@ -25,7 +27,7 @@
     <span slot="title">Congratulations</span>
     <p>Gravitional Acceleration has been calculated!</p>
     <div class="resWrap">
-      <span class="result">{{result/100}}</span>
+      <span class="result">{{result}}</span>
       <span class="meterpersecsec">m/s&sup2;</span>
     </div>
     <div slot="footer">

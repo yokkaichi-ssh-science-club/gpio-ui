@@ -4,7 +4,8 @@ module.exports=require("./session.html")({
   data(){
     return {
       state:0,
-      result:0
+      result:0,
+      meter:1.00
     }
   },
   computed:{
@@ -25,7 +26,8 @@ module.exports=require("./session.html")({
     },
     async drop(){
       this.state++
-      this.result=await socket.startTime()
+      const time=(await socket.startTime())/100
+      this.result=2*this.meter/time/time
     },
     async other(){
       await this.back()
