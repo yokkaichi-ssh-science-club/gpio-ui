@@ -4,10 +4,12 @@ require('./scss/index.scss')
 require('babel-polyfill')
 const Vue = require("vue/dist/vue.runtime.min")
 const VueOnsen = require('vue-onsenui')
+const VueI18n=require("vue-i18n")
 const Vuex = require("vuex")
 
 Vue.use(VueOnsen)
 Vue.use(Vuex)
+Vue.use(VueI18n)
 
 Vue.component('custom-bar', require("./component/customBar"))
 
