@@ -1,23 +1,23 @@
 const lists = {
   "gravity":[{
     img:require("../img/shiko.jpg"),
-    title:"Hello.",
-    text:"We are Yokkaichi High School in Mie Pref. We'd like to introduce our research.",
+    title:"ようこそ！！.",
+    text:"三重県立四日市高校です。今から私たちの発表を始めます",
     color:"#35af55"
   },{
     img:null,
-    title:"Purpose",
-    text:"First of all,our purpose of this research is to find various ways to measure gravitational acc.",
+    title:"研究目的",
+    text:"私たちの研究の目的は、重力加速度を様々な方法で測定することです。",
     color:"#a5ad34"
    },{
     img:require("../img/fall.png"),
-    title:"By the way...What is gravity?",
-    text:"Gravity is the force by which a planet or other body draws objects toward its center. ",
+    title:"重力とは",
+    text:"重力とは、地球が物体を引っ張る万有引力と、地球の自転による遠心力の合力です。 ",
     color:"#2196f3"
   },{
     img:require("../img/fall.png"),
-    title:"Gravitational Acceleration",
-    text:"Gravitational acceleration is an expression to indicate the intensity of a gravitational field.",
+    title:"重力加速度",
+    text:"重力加速度とは、重力によって生じる加速度のことです。",
     color:"#af7e35"
   },{
     img:require("../img/g2yt2.png"),
@@ -26,111 +26,111 @@ const lists = {
     color:"#4caf50",
   },{
     img:require("../img/five.png"),
-    title:"Measuring Methods",
-    text:"We did 5 different ways to measure it. Click [Next] button to check it out!",
+    title:"測定方法",
+    text:"私たちは５種類の実験から重力加速度を求めました。 [Next]ボタンをクリックして、実験の詳細を見に行きましょう!",
     color:"#ef6c00",
     buttons:[{
       label:"Next"
     }]
   }],
   "ffOpt":[{
-    title:"Free fall with optical sensor",
-    text:"In this experiment, we made a device that can measure free-fall time of an iron ball accurately.",
+    title:"光センサーを使った自由落下の実験",
+    text:"この実験では、私たちは鉄球の自由落下にかかる時間を正確に測れる装置を自作しました。",
     color:"#a7f5a9",
   },{
     img:require("../img/laser.png"),
-    title:"How this works #1",
-    text:"We used 2 optical sensors (laser) to detect free-fall of the ball.",
+    title:"実験原理1",
+    text:"この実験では鉄球の落下を検出する光センサーを２つ使いました",
     color:"#a7f5a9",
   },{
     img:require("../img/laser.png"),
-    title:"How this works #2",
-    text:"By measuring the time difference between the 2 sensors, you can find the value of gravitational acceleration.",
+    title:"実験原理2",
+    text:"２つのセンサー間の時間差を求めることで重力加速度の値を求めることができます。",
     color:"#a7f5a9",
   },{
     img:require("../img/g2yt2.png"),
-    title:"Formula",
-    text:"We used a formula above to calculate the value.",
+    title:"公式",
+    text:"この実験では、重力加速度の値を求めるためにこの式を使いました。",
     color:"#a7f5a9",
     buttons:[{
-      label:"Done"
+      label:"トップに戻る"
     }]
    }],
   "ffSW":[{
-    title:"Free fall with stopwatch & switch",
-    text:"In this experiment, we made a device that can measure free-fall time of an iron ball accurately.",
+    title:"ストップウォッチとスイッチを使った自由落下の実験",
+    text:"この実験では、私たちは鉄球の自由落下にかかる時間を正確に測れる装置を自作しました。",
     color:"#62b8e2",
   },{
     img:require("../img/ffSW.png"),
-    title:"What we used",
-    text:"We used a stopwatch, an electromagnet, and push switch. By using this, we were able to measure time from the beggining to the end of the free-fall.",
+    title:"実験器具",
+    text:"この実験ではストップウォッチ、電磁石、プッシュスイッチを使いました。これらの器具を使うことで 自由落下の開始から終了までの時間を測ることができます。",
     color:"#8ac8e6",
   },{
     img:require("../img/atwood.png"),
-    title:"How this works #1",
-    text:"You toggle off an electromagnet and release the ball. At the same time, the stopwatch starts. Then, when the ball lands on the push switch, the stopwatch stops.",
+    title:"実験装置",
+    text:"電磁石の電源を切ると、鉄球が落ち、それと同時に時間の測定が開始され、 鉄球がプッシュスイッチに衝突すると時間の測定を終了する装置を組み立てました。",
     color:"#8ac8e6",
   },{
     img:require("../img/g2yt2.png"),
-    title:"How this works #2",
-    text:"By measuring the free-fall time and the height it dropped, you can find the value of gravitational acceleration.",
+    title:"実験原理",
+    text:"自由落下にかかった時間と落ちた高さを測ることで重力加速度の値を求めることができます。",
     color:"#8ac8e6",
   },{
     img:require("../img/g2yt2.png"),
-    title:"Formula",
-    text:"We used a formula above to calculate the value.",
+    title:"公式",
+    text:"今回の実験では、この公式を使いました。",
     color:"#8ac8e6",
     buttons:[{
-      label:"Done"
+      label:"トップへ戻る"
     }]
    }],
   "atwood":[{
     img:require("../img/atwood.png"),
-    title:"Atwood Machine",
-    text:"Atwood Machine was invented in the late 18c.This device is used to measure the acceleration of objects.",
+    title:"アトウッドの器械",
+    text:"アトウッドの器械は１８世紀終わりに開発された装置です。この装置は物体の加速度を測定するのに使われます。",
     color:"#62b8e2",
   },{
     img:require("../img/atwood.png"),
-    title:"How this works #1",
-    text:"This machine consists of two objects that has different mass, connected by a string over a pulley.",
+    title:"実験手法",
+    text:"この実験では２つの質量の異なる物体を糸でつなぎ、滑車にかけます。",
     color:"#62b8e5",
   },{
     img:require("../img/atwood.png"),
-    title:"How this works #2",
-    text:"If you release your hands from the objects, they began to move. By measuring height and time it took, you can calculate gravitational acceleration.",
+    title:"実験原理",
+    text:"物体をおさえていた手を放すと、物体は動き出します。高さと落下時間を測ることで重力加速度を求めることができます。",
     color:"#62b8e5",
   },{
     img:require("../img/atwood_formula.png"),
-    title:"Formula",
-    text:"We used a formula above to calculate the value.",
+    title:"公式",
+    text:"今回の実験ではこの公式を使いました。",
     color:"#62b8e5",
    },{
     img:require("../img/grav.png"),
-    title:"All right",
-    text:"We'll demonstrate and acutually caluculate the value of gravitational acc.",
+    title:"さあ",
+    text:"実際に重力加速度の値を測定してみましょう！ということで、机上の実験装置に注目してください",
     color:"#62b8e5",
      buttons:[{
-      label:"Done"
+      label:"トップに戻る"
     }]
   }],
   "aldebaran":[{
     img:require("../img/aldebaran_pic_en.png"),
-    title:"Aldebaran Eclipse",
-    text:"In this experiment, we used Aldebaran Eclipse to calculate gravitational acceleration.",
+    title:"アルデバラン食",
+    text:"この実験では、重力加速度を求めるためにアルデバラン食を使いました。",
     color:"#78909c",
   },{
     img:require("../img/aldebaran_en.gif"),
-    title:"By the way...What is Aldebaran Eclipse? ",
-    text:"Watch this gif above. This special eclipse occurs every 17 years. We made a good use of this opportunity and observed it.",
+    title:"ところで、アルデバラン食とはなんでしょうか？ ",
+    text:"この画像を見てください。アルデバラン食は十数年に一度の天体ショーです。 この機会を生かして、私たちはアルデバラン食を観察しました。",
     color:"#78909c",
   },{
-    title:"How this works",
-    text:"We know the radius of earth and the distance between earth and the moon. So, if we could measure angular velocity of the moon, we can calcutate gravitational acceleration.",
+    title:"実験原理",
+    text:"地球の半径と、月と地球の距離はよく知られた値です。そのため、月の公転の角速度を測ることで重力加速度を求めることができます。",
     color:"#78909c",
   },{
     img:require("../img/aldebaran_formula.png"), //png?
-    title:"Formula",
-    text:"We used a formula above to calculate the value.",
+    title:"公式",
+    text:"この実験では、この公式を使いました。",
     color:"#78909c",
     buttons:[{
       label:"Done"
@@ -138,23 +138,23 @@ const lists = {
   }],
   "spring":[{
     img:require("../img/spring_en.png"),
-    title:"Spring Pendulum",
-    text:"Spring pendulum is a physical system where an object is connected to a spring.",
+    title:"鉛直バネ振り子",
+    text:"鉛直バネ振り子はバネと物体とをつないだ実験装置です。",
     color:"#f9ace8",
   },{
     img:require("../img/pendulum.png"),
-    title:"How this works",
-    text:"If you pull the object downward, it'll move vertically. By measuring this period, you can calculate gravitational acceleration",
+    title:"実験原理",
+    text:"物体を下に引っ張って放すと、物体は垂直に振動します。その周期を測ることから重力加速度を求めることができます。",
     color:"#f9ace8",
   },{
     img:require("../img/aokiware.png"),
-    title:"Analysis",
-    text:"We made our original software and analyzed videos.",
+    title:"解析方法",
+    text:"この実験では新たにソフトウェアを作り、動画を解析しました。",
     color:"#f9ace8",
   },{
     img:require("../img/grav.png"),
-    title:"Formula",
-    text:"We used a formula above to find the value.",
+    title:"公式",
+    text:"この実験では、この公式を使いました。",
     color:"#f9ace8",
     buttons:[{
       label:"Done"
