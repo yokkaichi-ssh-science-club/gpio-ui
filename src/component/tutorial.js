@@ -113,6 +113,7 @@ const lists = {
     }]
   }],
   "aldebaran":[{
+    img:require("../img/aldebaran_pic_en.png"),
     title:"Aldebaran Eclipse",
     text:"In this experiment, we used Aldebaran Eclipse to calculate gravitational acceleration.",
     color:"#78909c",
@@ -125,9 +126,6 @@ const lists = {
     title:"How this works",
     text:"We know the radius of earth and the distance between earth and the moon. So, if we could measure angular velocity of the moon, we can calcutate gravitational acceleration.",
     color:"#78909c",
-    buttons:[{
-      label:"Next"
-    }]
   },{
     img:require("../img/aldebaran_formula.png"), //png?
     title:"Formula",
