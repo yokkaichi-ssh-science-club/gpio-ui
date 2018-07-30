@@ -35,7 +35,7 @@ exports.vm= new Vue({
       html.setAttribute('onsflag-iphonex-landscape', '');
     }
   },
-  i18n: new VueI18n({
+  i18n: new VueI18n.default({
     locale: 'ja', // set locale
     messages:require("./i18n.json"), // set locale messages
   })
