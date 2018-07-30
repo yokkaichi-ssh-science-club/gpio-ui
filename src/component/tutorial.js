@@ -157,7 +157,7 @@ const lists = {
     text:"この実験では、この公式を使いました。",
     color:"#f9ace8",
     buttons:[{
-      label:"Done"
+      label:"トップへ戻る"
     }]
    }]
 }
