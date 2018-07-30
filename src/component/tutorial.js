@@ -1,18 +1,18 @@
 const lists = {
   "gravity":[{
     img:require("../img/shiko.jpg"),
-    title:"ようこそ！！.",
+    title:"ようこそ！！",
     text:"三重県立四日市高校です。今から私たちの発表を始めます",
     color:"#35af55"
   },{
     img:null,
     title:"研究目的",
-    text:"私たちの研究の目的は、重力加速度を様々な方法で測定することです。",
+    text:"私たちの研究の目的は重力加速度を様々な方法で測定することです。",
     color:"#a5ad34"
    },{
     img:require("../img/fall.png"),
     title:"重力とは",
-    text:"重力とは、地球が物体を引っ張る万有引力と、地球の自転による遠心力の合力です。 ",
+    text:"重力とは、地球が物体を引っ張る万有引力と地球の自転による遠心力の合力です。 ",
     color:"#2196f3"
   },{
     img:require("../img/fall.png"),
@@ -133,7 +133,7 @@ const lists = {
     text:"この実験では、この公式を使いました。",
     color:"#78909c",
     buttons:[{
-      label:"Done"
+      label:"トップへ戻る"
     }]
   }],
   "spring":[{
