@@ -1,6 +1,6 @@
 const lists = {
   "gravity":[{
-    img:require("../img/mie.png"),
+    img:require("../img/shiko.png"),
     title:"Hello.",
     text:"We are Yokkaichi High School in Mie Pref. We'd like to introduce our research.",
     color:"#35af55"
