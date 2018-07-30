@@ -37,6 +37,6 @@ exports.vm= new Vue({
   },
   i18n: new VueI18n({
     locale: 'ja', // set locale
-    messages, // set locale messages
+    messages:require("./i18n.json"), // set locale messages
   })
 })
