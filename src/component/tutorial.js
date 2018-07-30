@@ -2,7 +2,7 @@ const lists = {
   "gravity":[{
     img:require("../img/shiko.jpg"),
     title:"Hello.",
-    text:"We are Yokkaichi High School in Mie Pref. We'd like to introduce our research.",
+    text:"We are Yokkaichi High School in Mie Pref. We'd like to introduce our research. ",
     color:"#35af55"
   },{
     img:null,
