@@ -1,6 +1,6 @@
 const lists = {
   "gravity":[{
-    img:require("../img/shiko.png"),
+    img:require("../img/shiko.jpg"),
     title:"Hello.",
     text:"We are Yokkaichi High School in Mie Pref. We'd like to introduce our research.",
     color:"#35af55"
@@ -25,6 +25,7 @@ const lists = {
     text:"It is calculated by formula above.(t: time, y: height)",
     color:"#4caf50",
   },{
+    img:require("../img/five.png"),
     title:"Measuring Methods",
     text:"We did 5 different ways to measure it. Click [Next] button to check it out!",
     color:"#ef6c00",
