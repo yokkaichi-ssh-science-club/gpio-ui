@@ -136,7 +136,7 @@ const lists = {
     }]
   }],
   "spring":[{
-    img:require("../img/spring.png"),
+    img:require("../img/spring_en.png"),
     title:"Spring Pendulum",
     text:"Spring pendulum is a physical system where an object is connected to a spring.",
     color:"#f9ace8",
@@ -144,6 +144,11 @@ const lists = {
     img:require("../img/pendulum.png"),
     title:"How this works",
     text:"If you pull the object downward, it'll move vertically. By measuring this period, you can calculate gravitational acceleration",
+    color:"#f9ace8",
+  },{
+    img:require("../img/aokiware.png"),
+    title:"Analysis",
+    text:"We made our original software and analyzed videos.",
     color:"#f9ace8",
   },{
     img:require("../img/grav.png"),
