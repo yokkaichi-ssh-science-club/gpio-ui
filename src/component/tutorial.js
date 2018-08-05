@@ -2,12 +2,12 @@ const lists = {
   "gravity":[{
     img:require("../img/shiko.jpg"),
     title:"ようこそ！！",
-    text:"三重県立四日市高校です。今から私たちの発表を始めます",
+    text:"三重県立四日市高校です。私たちの研究成果を発表したいと思います",
     color:"#35af55"
   },{
     img:null,
     title:"研究目的",
-    text:"私たちの研究の目的は重力加速度を様々な方法で測定することです。",
+    text:"私たちの研究の目的は重力加速度を様々な方法で測定することです",
     color:"#a5ad34"
    },{
     img:require("../img/fall.png"),
@@ -20,32 +20,33 @@ const lists = {
     text:"重力加速度とは、重力によって生じる加速度のことです。",
     color:"#af7e35"
   },{
-    img:require("../img/g2yt2.png"),
-    title:"How to calculate",
-    text:"It is calculated by formula above.(t: time, y: height)",
+    img:require("../img/val9.8.png"),
+    title:"重力加速度の値",
+    text:"ご存知の方もいると思いますが、重力加速度は9.8m/s/sとして一般に知られています。私たちはこの値を得るために様々な実験を行いました。",
     color:"#4caf50",
   },{
-    img:require("../img/five.png"),
+    img:require("../img/5.png"),
     title:"測定方法",
-    text:"私たちは５種類の実験から重力加速度を求めました。 [Next]ボタンをクリックして、実験の詳細を見に行きましょう!",
+    text:"私たちは5種類の実験で重力加速度を求めました。 [次へ]ボタンをクリックで、実験の詳細をご紹介します。",
     color:"#ef6c00",
     buttons:[{
-      label:"Next"
+      label:"次へ"
     }]
   }],
   "ffOpt":[{
+    img:require("../img/ffop_pic.png"),
     title:"光センサーを使った自由落下の実験",
-    text:"この実験では、私たちは鉄球の自由落下にかかる時間を正確に測れる装置を自作しました。",
+    text:"この実験では、鉄球の自由落下にかかる時間を正確に測れる装置を自作しました。",
     color:"#a7f5a9",
   },{
     img:require("../img/laser.png"),
-    title:"実験原理1",
-    text:"この実験では鉄球の落下を検出する光センサーを２つ使いました",
+    title:"実験原理＆仕組み #1",
+    text:"この実験では鉄球の落下を検出する光センサー（レーザー光）を２つ使いました。",
     color:"#a7f5a9",
   },{
     img:require("../img/laser.png"),
-    title:"実験原理2",
-    text:"２つのセンサー間の時間差を求めることで重力加速度の値を求めることができます。",
+    title:"実験原理＆仕組み #2",
+    text:"2つのセンサー間を通過する時間差と、落下した距離を求めることで重力加速度の値を測定することができます。",
     color:"#a7f5a9",
   },{
     img:require("../img/g2yt2.png"),
@@ -66,12 +67,11 @@ const lists = {
     text:"この実験ではストップウォッチ、電磁石、プッシュスイッチを使いました。これらの器具を使うことで 自由落下の開始から終了までの時間を測ることができます。",
     color:"#8ac8e6",
   },{
-    img:require("../img/atwood.png"),
+    img:require("../img/electromg.png"),
     title:"実験装置",
-    text:"電磁石の電源を切ると、鉄球が落ち、それと同時に時間の測定が開始され、 鉄球がプッシュスイッチに衝突すると時間の測定を終了する装置を組み立てました。",
+    text:"電磁石の電源を切ると鉄球が落ち、それと同時に時間の測定が開始され、 鉄球がプッシュスイッチに衝突すると時間の測定を終了する装置を組み立てました。",
     color:"#8ac8e6",
   },{
-    img:require("../img/g2yt2.png"),
     title:"実験原理",
     text:"自由落下にかかった時間と落ちた高さを測ることで重力加速度の値を求めることができます。",
     color:"#8ac8e6",
@@ -87,17 +87,17 @@ const lists = {
   "atwood":[{
     img:require("../img/atwood.png"),
     title:"アトウッドの器械",
-    text:"アトウッドの器械は１８世紀終わりに開発された装置です。この装置は物体の加速度を測定するのに使われます。",
+    text:"アトウッドの器械は18世紀終わりに発明された装置です。この装置は物体の加速度を測定するのに使われました。",
     color:"#62b8e2",
   },{
     img:require("../img/atwood.png"),
     title:"実験手法",
-    text:"この実験では２つの質量の異なる物体を糸でつなぎ、滑車にかけます。",
+    text:"この実験では2つの質量の異なる物体を糸でつなぎ、滑車にかけます。",
     color:"#62b8e5",
   },{
     img:require("../img/atwood.png"),
     title:"実験原理",
-    text:"物体をおさえていた手を放すと、物体は動き出します。高さと落下時間を測ることで重力加速度を求めることができます。",
+    text:"2つの物体をささえていた手を放すと、物体は動き出します。それらの落下時間と落下した高さを測ることで重力加速度を求めることができます。",
     color:"#62b8e5",
   },{
     img:require("../img/atwood_formula.png"),
@@ -106,8 +106,8 @@ const lists = {
     color:"#62b8e5",
    },{
     img:require("../img/grav.png"),
-    title:"さあ",
-    text:"実際に重力加速度の値を測定してみましょう！ということで、机上の実験装置に注目してください",
+    title:"それでは",
+    text:"実際に重力加速度の値を測定してみたいと思います。机上の実験装置に注目してください",
     color:"#62b8e5",
      buttons:[{
       label:"トップに戻る"
@@ -124,8 +124,9 @@ const lists = {
     text:"この画像を見てください。アルデバラン食は十数年に一度の天体ショーです。 この機会を生かして、私たちはアルデバラン食を観察しました。",
     color:"#78909c",
   },{
+    img:require("../img/earthandmoon.png"),
     title:"実験原理",
-    text:"地球の半径と、月と地球の距離はよく知られた値です。そのため、月の公転の角速度を測ることで重力加速度を求めることができます。",
+    text:"地球の半径と、月と地球の距離はよく知られた値です。そのため、月の公転の角速度を測ることで公式から、重力加速度を求めることができます。",
     color:"#78909c",
   },{
     img:require("../img/aldebaran_formula.png"), //png?
@@ -138,8 +139,8 @@ const lists = {
   }],
   "spring":[{
     img:require("../img/spring_en.png"),
-    title:"鉛直バネ振り子",
-    text:"鉛直バネ振り子はバネと物体とをつないだ実験装置です。",
+    title:"鉛直ばね振り子",
+    text:"鉛直ばね振り子はバネと物体とをつないだ実験装置です。",
     color:"#f9ace8",
   },{
     img:require("../img/pendulum.png"),
@@ -149,10 +150,10 @@ const lists = {
   },{
     img:require("../img/aokiware.png"),
     title:"解析方法",
-    text:"この実験では新たにソフトウェアを作り、動画を解析しました。",
+    text:"この実験では新たにソフトウェアを作り、動画を解析しました。解析で得られたデータから、ばね振り子の周期を求めました。",
     color:"#f9ace8",
   },{
-    img:require("../img/grav.png"),
+    img:require("../img/2pilingo.png"),
     title:"公式",
     text:"この実験では、この公式を使いました。",
     color:"#f9ace8",
