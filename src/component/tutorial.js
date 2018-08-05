@@ -15,7 +15,6 @@ const lists = {
     text:"Gravity is the force by which a planet or other body draws objects toward its center. ",
     color:"#2196f3"
   },{
-    img:require("../img/fall.png"),
     title:"Gravitational Acceleration",
     text:"Gravitational acceleration is an expression to indicate the intensity of a gravitational field.",
     color:"#af7e35"
@@ -36,22 +35,22 @@ const lists = {
   "ffOpt":[{
     title:"Free fall with optical sensor",
     text:"In this experiment, we made a device that can measure free-fall time of an iron ball accurately.",
-    color:"#a7f5a9",
+    color:"#7cb342",
   },{
     img:require("../img/laser.png"),
     title:"How this works #1",
     text:"We used 2 optical sensors (laser) to detect free-fall of the ball.",
-    color:"#a7f5a9",
+    color:"#7cb342",
   },{
     img:require("../img/laser.png"),
     title:"How this works #2",
     text:"By measuring the time difference between the 2 sensors, you can find the value of gravitational acceleration.",
-    color:"#a7f5a9",
+    color:"#7cb342",
   },{
     img:require("../img/g2yt2.png"),
     title:"Formula",
     text:"We used a formula above to calculate the value.",
-    color:"#a7f5a9",
+    color:"#7cb342",
     buttons:[{
       label:"Done"
     }]
@@ -140,22 +139,22 @@ const lists = {
     img:require("../img/spring_en.png"),
     title:"Spring Pendulum",
     text:"Spring pendulum is a physical system where an object is connected to a spring.",
-    color:"#f9ace8",
+    color:"#f06292",
   },{
     img:require("../img/pendulum.png"),
     title:"How this works",
     text:"If you pull the object downward, it'll move vertically. By measuring this period, you can calculate gravitational acceleration",
-    color:"#f9ace8",
+    color:"#f06292",
   },{
     img:require("../img/aokiware.png"),
     title:"Analysis",
     text:"We made our original software and analyzed videos.",
-    color:"#f9ace8",
+    color:"#f06292",
   },{
     img:require("../img/grav.png"),
     title:"Formula",
     text:"We used a formula above to find the value.",
-    color:"#f9ace8",
+    color:"#f06292",
     buttons:[{
       label:"Done"
     }]
