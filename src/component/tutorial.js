@@ -37,22 +37,22 @@ const lists = {
     img:require("../img/ffop_pic.png"),
     title:"光センサーを使った自由落下の実験",
     text:"この実験では、鉄球の自由落下にかかる時間を正確に測れる装置を自作しました。",
-    color:"#a7f5a9",
+    color:"#89c78a",
   },{
     img:require("../img/laser.png"),
     title:"実験原理＆仕組み #1",
     text:"この実験では鉄球の落下を検出する光センサー（レーザー光）を２つ使いました。",
-    color:"#a7f5a9",
+    color:"#89c78a",
   },{
     img:require("../img/laser.png"),
     title:"実験原理＆仕組み #2",
     text:"2つのセンサー間を通過する時間差と、落下した距離を求めることで重力加速度の値を測定することができます。",
-    color:"#a7f5a9",
+    color:"#89c78a",
   },{
     img:require("../img/g2yt2.png"),
     title:"公式",
     text:"この実験では、重力加速度の値を求めるためにこの式を使いました。",
-    color:"#a7f5a9",
+    color:"#89c78a",
     buttons:[{
       label:"トップに戻る"
     }]
@@ -105,7 +105,6 @@ const lists = {
     text:"今回の実験ではこの公式を使いました。",
     color:"#62b8e5",
    },{
-    img:require("../img/grav.png"),
     title:"それでは",
     text:"実際に重力加速度の値を測定してみたいと思います。机上の実験装置に注目してください",
     color:"#62b8e5",
