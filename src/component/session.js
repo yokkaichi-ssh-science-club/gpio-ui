@@ -5,7 +5,7 @@ module.exports=require("./session.html")({
     return {
       state:0,
       result:0,
-      meter:1.00
+      meter:0.8 //当日、0.8m の高さに設定するつもりだ
     }
   },
   computed:{
