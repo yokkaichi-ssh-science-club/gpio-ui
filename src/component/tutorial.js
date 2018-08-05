@@ -7,7 +7,7 @@ const lists = {
   },{
     img:null,
     title:"Purpose",
-    text:"First of all,our purpose of this research is to find various ways to measure gravitational acc.",
+    text:"First of all,our purpose of this research is to find various ways to measure gravitational acceleration.",
     color:"#a5ad34"
    },{
     img:require("../img/fall.png"),
@@ -19,20 +19,21 @@ const lists = {
     text:"Gravitational acceleration is an expression to indicate the intensity of a gravitational field.",
     color:"#af7e35"
   },{
-    img:require("../img/g2yt2.png"),
-    title:"How to calculate",
-    text:"It is calculated by formula above.(t: time, y: height)",
+    img:require("../img/val9.8.png"),
+    title:"Value of Gravitational Acceleration",
+    text:"The numerical value for the acceleration of gravity is most accurately known as 9.8 m/s/s. ",
     color:"#4caf50",
   },{
-    img:require("../img/five.png"),
+    img:require("../img/5.png"),
     title:"Measuring Methods",
-    text:"We did 5 different ways to measure it. Click [Next] button to check it out!",
+    text:"We did 5 different ways to measure gravitational acceleration. Click [Next] button to check it out!",
     color:"#ef6c00",
     buttons:[{
       label:"Next"
     }]
   }],
   "ffOpt":[{
+    img:require("../img/ffop_pic.png"),
     title:"Free fall with optical sensor",
     text:"In this experiment, we made a device that can measure free-fall time of an iron ball accurately.",
     color:"#7cb342",
@@ -65,12 +66,11 @@ const lists = {
     text:"We used a stopwatch, an electromagnet, and push switch. By using this, we were able to measure time from the beggining to the end of the free-fall.",
     color:"#8ac8e6",
   },{
-    img:require("../img/atwood.png"),
+    img:require("../img/electromg.png"),
     title:"How this works #1",
     text:"You toggle off an electromagnet and release the ball. At the same time, the stopwatch starts. Then, when the ball lands on the push switch, the stopwatch stops.",
     color:"#8ac8e6",
   },{
-    img:require("../img/g2yt2.png"),
     title:"How this works #2",
     text:"By measuring the free-fall time and the height it dropped, you can find the value of gravitational acceleration.",
     color:"#8ac8e6",
@@ -94,9 +94,9 @@ const lists = {
     text:"This machine consists of two objects that has different mass, connected by a string over a pulley.",
     color:"#62b8e5",
   },{
-    img:require("../img/atwood.png"),
+    img:require("../img/electromg.png"),
     title:"How this works #2",
-    text:"If you release your hands from the objects, they began to move. By measuring height and time it took, you can calculate gravitational acceleration.",
+    text:"If you release your hands from the objects, they began to move. By measuring height and time it took, you can calculate gravitational acceleration.We used an electromagnet in this experiment.",
     color:"#62b8e5",
   },{
     img:require("../img/atwood_formula.png"),
@@ -104,9 +104,8 @@ const lists = {
     text:"We used a formula above to calculate the value.",
     color:"#62b8e5",
    },{
-    img:require("../img/grav.png"),
     title:"All right",
-    text:"We'll demonstrate and acutually caluculate the value of gravitational acc.",
+    text:"We'll demonstrate and acutually caluculate the value of gravitational acceleration.",
     color:"#62b8e5",
      buttons:[{
       label:"Done"
@@ -120,14 +119,15 @@ const lists = {
   },{
     img:require("../img/aldebaran_en.gif"),
     title:"By the way...What is Aldebaran Eclipse? ",
-    text:"Watch this gif above. This special eclipse occurs every 17 years. We made a good use of this opportunity and observed it.",
+    text:"Take a look at this gif above. This special eclipse occurs every 17 years. We made a good use of this opportunity and observed it.",
     color:"#78909c",
   },{
+    img:require("../img/earthandmoon.png"),
     title:"How this works",
     text:"We know the radius of earth and the distance between earth and the moon. So, if we could measure angular velocity of the moon, we can calcutate gravitational acceleration.",
     color:"#78909c",
   },{
-    img:require("../img/aldebaran_formula.png"), //png?
+    img:require("../img/aldebaran_formula.png"), //png?   >>sorry
     title:"Formula",
     text:"We used a formula above to calculate the value.",
     color:"#78909c",
@@ -148,10 +148,10 @@ const lists = {
   },{
     img:require("../img/aokiware.png"),
     title:"Analysis",
-    text:"We made our original software and analyzed videos.",
+    text:"We made our original software and analyzed videos. From the data, we calculated the period of spring pendulum.",
     color:"#f06292",
   },{
-    img:require("../img/grav.png"),
+    img:require("../img/2pilingo.png"),
     title:"Formula",
     text:"We used a formula above to find the value.",
     color:"#f06292",
