@@ -95,7 +95,7 @@ const lists = {
     text:"この実験では2つの質量の異なる物体を糸でつなぎ、滑車にかけます。",
     color:"#62b8e5",
   },{
-    img:require("../img/atwood.png"),
+    img:require("../img/electromg.png"),
     title:"実験原理",
     text:"2つの物体をささえていた手を放すと、物体は動き出します。それらの落下時間と落下した高さを測ることで重力加速度を求めることができます。",
     color:"#62b8e5",
