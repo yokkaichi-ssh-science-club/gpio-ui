@@ -15,7 +15,6 @@ const lists = {
     text:"重力とは、地球が物体を引っ張る万有引力と地球の自転による遠心力の合力です。 ",
     color:"#2196f3"
   },{
-    img:require("../img/fall.png"),
     title:"重力加速度",
     text:"重力加速度とは、重力によって生じる加速度のことです。",
     color:"#af7e35"
@@ -36,22 +35,23 @@ const lists = {
   "ffOpt":[{
     title:"光センサーを使った自由落下の実験",
     text:"この実験では、私たちは鉄球の自由落下にかかる時間を正確に測れる装置を自作しました。",
-    color:"#a7f5a9",
+    color:"#7cb342",
+    
   },{
     img:require("../img/laser.png"),
     title:"実験原理1",
     text:"この実験では鉄球の落下を検出する光センサーを２つ使いました",
-    color:"#a7f5a9",
+    color:"#7cb342",
   },{
     img:require("../img/laser.png"),
     title:"実験原理2",
     text:"２つのセンサー間の時間差を求めることで重力加速度の値を求めることができます。",
-    color:"#a7f5a9",
+    color:"#7cb342",
   },{
     img:require("../img/g2yt2.png"),
     title:"公式",
     text:"この実験では、重力加速度の値を求めるためにこの式を使いました。",
-    color:"#a7f5a9",
+    color:"#7cb342",
     buttons:[{
       label:"トップに戻る"
     }]
@@ -140,22 +140,22 @@ const lists = {
     img:require("../img/spring_en.png"),
     title:"鉛直バネ振り子",
     text:"鉛直バネ振り子はバネと物体とをつないだ実験装置です。",
-    color:"#f9ace8",
+    color:"#f06292",
   },{
     img:require("../img/pendulum.png"),
     title:"実験原理",
     text:"物体を下に引っ張って放すと、物体は垂直に振動します。その周期を測ることから重力加速度を求めることができます。",
-    color:"#f9ace8",
+    color:"#f06292",
   },{
     img:require("../img/aokiware.png"),
     title:"解析方法",
     text:"この実験では新たにソフトウェアを作り、動画を解析しました。",
-    color:"#f9ace8",
+    color:"#f06292",
   },{
     img:require("../img/grav.png"),
     title:"公式",
     text:"この実験では、この公式を使いました。",
-    color:"#f9ace8",
+    color:"#f06292",
     buttons:[{
       label:"トップへ戻る"
     }]

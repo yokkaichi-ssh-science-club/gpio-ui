@@ -4,7 +4,7 @@ const EventEmitter = require("eventemitter3")
 exports=module.exports=new EventEmitter()
 let socket;
 exports.connect=()=>new Promise((resolve,reject)=>{
-  socket=io("http://raspberrypi.local:5000")
+  socket=io(`http://${location.hostname}:5000`)
   socket.once('connect', resolve);
 
 })
