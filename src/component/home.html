@@ -1,21 +1,20 @@
 <v-ons-page data-page="home">
-  <custom-bar title="ホーム" backLabel="実験紹介"></custom-bar>
+  <custom-bar title="Home" backLabel="Tutorial"></custom-bar>
   <v-ons-list>
-
     <v-ons-list-item v-show="connected">
-      <v-ons-button modifier="large" :disabled="loading" @click="claimSession">実験をはじめる</v-ons-button>
+      <v-ons-button modifier="large" :disabled="loading" @click="claimSession">Claim a session</v-ons-button>
     </v-ons-list-item>
     <v-ons-list-item v-show="!connected">
-      <v-ons-button modifier="large" disabled="disabled">接続していません</v-ons-button>
+      <v-ons-button modifier="large" disabled>Not Available</v-ons-button>
     </v-ons-list-item>
     <v-ons-list-item modifier="chevron tappable" @click="otherEx">
-      実験方法の紹介
+      See other experiments
     </v-ons-list-item>
     <v-ons-list-item modifier="chevron tappable" @click="reference">
-      参考文献
+      Reference
     </v-ons-list-item>
     <v-ons-list-item modifier="chevron tappable" @click="source">
-      ソースコード
+      Source code
     </v-ons-list-item>
   </v-ons-list>
   <v-ons-alert-dialog modifier="rowfooter"
