@@ -33,20 +33,24 @@ const lists = {
     }]
   }],
   "ffOpt":[{
-    img:require("../img/ffop_pic.png"),
     title:"Free fall with optical sensor",
     text:"In this experiment, we made a device that can measure free-fall time of an iron ball accurately.",
     color:"#7cb342",
   },{
-    img:require("../img/laser.png"),
+    img:require("../img/laser2.png"),
     title:"How this works #1",
     text:"We used 2 optical sensors (laser) to detect free-fall of the ball.",
     color:"#7cb342",
   },{
-    img:require("../img/laser.png"),
+    img:require("../img/laser_double.png"),
     title:"How this works #2",
     text:"By measuring the time difference between the 2 sensors, you can find the value of gravitational acceleration.",
     color:"#7cb342",
+  },{
+    img:require("../img/ffop_pic.png"),
+    title:"Experimental device",
+    text:"This is a figure of the device we made. We used an electromagnet to drop an iron ball so that the ball could drop at zero initial velocity",
+    color:"#89c78a",
   },{
     img:require("../img/g2yt2.png"),
     title:"Formula",
@@ -86,7 +90,7 @@ const lists = {
   "atwood":[{
     img:require("../img/atwood.png"),
     title:"Atwood Machine",
-    text:"Atwood Machine was invented in the late 18c.This device is used to measure the acceleration of objects.",
+    text:"Atwood Machine was invented in the late 18c.This device is used to measure the acceleration of objects since it makes objects drop slower.",
     color:"#62b8e2",
   },{
     img:require("../img/atwood.png"),
