@@ -20,6 +20,12 @@ module.exports=require("./hello.html")({
       socket.connect().catch(e=>{
         return
       })
+    },
+    goToJapanese(){
+      location.href="../ja/";
+    },
+    goToEnglish(){
+      location.href="../en/";
     }
   },
   mounted(){

@@ -177,24 +177,38 @@ module.exports=require("./tutorial.html")({
       }else if(btn.url){
         util.openUrl(btn.url)
       }else{
-        if(this.index>this.items.length-2){
-          this.skip()
-        }else{
-          this.index++
-        }
+        this.nextItem()
       }
     },
     skip(){
       if(this.goNext){
         this.$store.commit("push",this.goNext)
       }else{
-        this.$store.commit("pop")
+        this.$store.commit("pop") 
         
+      }
+    },
+    nextItem(){
+      if(this.index>this.items.length-2){
+        this.skip()
+      }else{
+        this.index++
       }
     }
     
   },
   created(){
     this.items=lists[this.itemName||"gravity"]
+  },
+  mounted(){
+    document.body.addEventListener("keyup",e=>{
+      if (e.keyCode===32) {
+        if(this.index>this.items.length-2){
+          
+        }else{
+          this.index++
+        }
+      }
+    })
   }
 })

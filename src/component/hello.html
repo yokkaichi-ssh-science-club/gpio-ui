@@ -2,6 +2,19 @@
   <div>
     <h1>三重県立 四日市高校</h1>
     <p>複数の手法から求めた重力加速度の値とその考察</p>
-    <p class="btnWrap"><v-ons-button @click="tutorial">はじめる</v-ons-button></p>
+    <div class="btnWrap">
+      <div class="japanese">
+        <v-ons-button @click="tutorial">
+          <div class="icon">あ</div>
+          <div class="label">日本語</div>
+        </v-ons-button>
+      </div>
+      <div class="english">
+        <v-ons-button @click="goToEnglish">
+          <div class="icon">A</div>
+          <div class="label">English</div>
+        </v-ons-button>
+      </div>
+    </div>
   </div>
 </v-ons-page>
