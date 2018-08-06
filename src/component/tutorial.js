@@ -34,24 +34,28 @@ const lists = {
     }]
   }],
   "ffOpt":[{
-    img:require("../img/ffop_pic.png"),
     title:"光センサーを使った自由落下の実験",
-    text:"この実験では、鉄球の自由落下にかかる時間を正確に測れる装置を自作しました。",
+    text:"この実験では、鉄球の自由落下にかかる時間を正確に測れる装置を作成しました。",
     color:"#89c78a",
   },{
-    img:require("../img/laser.png"),
+    img:require("../img/laser2.png"),
     title:"実験原理＆仕組み #1",
-    text:"この実験では鉄球の落下を検出する光センサー（レーザー光）を２つ使いました。",
+    text:"この実験では光センサー（レーザー光）を2つ使いました。2つ使うことによって鉄球の落下を検出することができます。",
     color:"#89c78a",
   },{
-    img:require("../img/laser.png"),
+    img:require("../img/laser_double.png"),
     title:"実験原理＆仕組み #2",
-    text:"2つのセンサー間を通過する時間差と、落下した距離を求めることで重力加速度の値を測定することができます。",
+    text:"2つの光センサー間の距離を測っておき、鉄球を落下させます。その際の時間差を光センサーで検出することで、重力加速度を求めます。",
+    color:"#89c78a",
+  },{
+    img:require("../img/ffop_pic.png"),
+    title:"実験装置の全体図",
+    text:"実際に作った装置の仕組みです。鉄球を落下させる際、初速度を与えないように電磁石を使って鉄球を落下させました。",
     color:"#89c78a",
   },{
     img:require("../img/g2yt2.png"),
-    title:"公式",
-    text:"この実験では、重力加速度の値を求めるためにこの式を使いました。",
+    title:"関係式",
+    text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
     color:"#89c78a",
     buttons:[{
       label:"トップに戻る"
@@ -77,8 +81,8 @@ const lists = {
     color:"#8ac8e6",
   },{
     img:require("../img/g2yt2.png"),
-    title:"公式",
-    text:"今回の実験では、この公式を使いました。",
+    title:"関係式",
+    text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
     color:"#8ac8e6",
     buttons:[{
       label:"トップへ戻る"
@@ -87,7 +91,7 @@ const lists = {
   "atwood":[{
     img:require("../img/atwood.png"),
     title:"アトウッドの器械",
-    text:"アトウッドの器械は18世紀終わりに発明された装置です。この装置は物体の加速度を測定するのに使われました。",
+    text:"アトウッドの器械は18世紀終わりに発明された装置です。この装置は滑車を使うため物体の落下速度を小さくすることができます。そのため、正確に時間を測れなかった時代に物体の加速度を測る目的で使われました。",
     color:"#62b8e2",
   },{
     img:require("../img/atwood.png"),
@@ -97,12 +101,12 @@ const lists = {
   },{
     img:require("../img/electromg.png"),
     title:"実験原理",
-    text:"2つの物体をささえていた手を放すと、物体は動き出します。それらの落下時間と落下した高さを測ることで重力加速度を求めることができます。",
+    text:"2つの物体をささえていた手を放すと、物体は動き出します。それらの落下時間と落下した高さを測ることで重力加速度を求めることができます。この実験では初速度を与えないために電磁石を用いました。",
     color:"#62b8e5",
   },{
     img:require("../img/atwood_formula.png"),
-    title:"公式",
-    text:"今回の実験ではこの公式を使いました。",
+    title:"関係式",
+    text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
     color:"#62b8e5",
    },{
     title:"それでは",
@@ -117,20 +121,30 @@ const lists = {
     title:"アルデバラン食",
     text:"この実験では、重力加速度を求めるためにアルデバラン食を使いました。",
     color:"#78909c",
-  },{
-    img:require("../img/aldebaran_en.gif"),
-    title:"ところで、アルデバラン食とはなんでしょうか？ ",
-    text:"この画像を見てください。アルデバラン食は十数年に一度の天体ショーです。 この機会を生かして、私たちはアルデバラン食を観察しました。",
+   },{
+    img:require("../img/aldebaran_formula.png"),
+    title:"実験原理 #1",
+    text:"地球の半径と、月と地球の距離はよく知られた値です。そのため、月の公転の角速度を測ることで上の関係式から、重力加速度を求めることができます。",
     color:"#78909c",
   },{
     img:require("../img/earthandmoon.png"),
-    title:"実験原理",
-    text:"地球の半径と、月と地球の距離はよく知られた値です。そのため、月の公転の角速度を測ることで公式から、重力加速度を求めることができます。",
+    title:"実験原理 #2",
+    text:"そこで、月の公転の角速度を測るために、アルデバラン食という現象を利用しました。",
+    color:"#78909c",
+  },{
+    img:require("../img/aldebaran_en.gif"),
+    title:"ところで、アルデバラン食とはなんでしょうか？ ",
+    text:"この画像を見てください。アルデバラン食は十数年に一度アルデバランという恒星が月に隠れる現象です。 この機会を生かして、私たちはアルデバラン食を観察しました。",
+    color:"#78909c",
+  },{
+    img:require("../img/aldebaran_en.gif"),
+    title:"実験原理 #3",
+    text:"アルデバラン食開始と終了の時間、月に対するアルデバランの位置の変化を測定することで、月の移動距離とそれにかかる時間がわかります。これらを用いて月の角速度を求めました。",
     color:"#78909c",
   },{
     img:require("../img/aldebaran_formula.png"), //png?
-    title:"公式",
-    text:"この実験では、この公式を使いました。",
+    title:"関係式",
+    text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
     color:"#78909c",
     buttons:[{
       label:"トップへ戻る"
@@ -144,17 +158,17 @@ const lists = {
   },{
     img:require("../img/pendulum.png"),
     title:"実験原理",
-    text:"物体を下に引っ張って放すと、物体は垂直に振動します。その周期を測ることから重力加速度を求めることができます。",
+    text:"物体を下に引っ張って放すと、物体は垂直に振動します。その周期を測ることから重力加速度を求めることができます。iPhoneを使い、振り子の振動を動画撮影しました。",
     color:"#f9ace8",
   },{
     img:require("../img/aokiware.png"),
     title:"解析方法",
-    text:"この実験では新たにソフトウェアを作り、動画を解析しました。解析で得られたデータから、ばね振り子の周期を求めました。",
+    text:"この実験ではコマ送りの解析ができる自作ソフトウェアを作り、撮影した動画を解析しました。解析で得られたデータから、ばね振り子の周期を求めました。",
     color:"#f9ace8",
   },{
     img:require("../img/2pilingo.png"),
     title:"公式",
-    text:"この実験では、この公式を使いました。",
+    text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
     color:"#f9ace8",
     buttons:[{
       label:"トップへ戻る"
@@ -177,38 +191,24 @@ module.exports=require("./tutorial.html")({
       }else if(btn.url){
         util.openUrl(btn.url)
       }else{
-        this.nextItem()
+        if(this.index>this.items.length-2){
+          this.skip()
+        }else{
+          this.index++
+        }
       }
     },
     skip(){
       if(this.goNext){
         this.$store.commit("push",this.goNext)
       }else{
-        this.$store.commit("pop") 
+        this.$store.commit("pop")
         
-      }
-    },
-    nextItem(){
-      if(this.index>this.items.length-2){
-        this.skip()
-      }else{
-        this.index++
       }
     }
     
   },
   created(){
     this.items=lists[this.itemName||"gravity"]
-  },
-  mounted(){
-    document.body.addEventListener("keyup",e=>{
-      if (e.keyCode===32) {
-        if(this.index>this.items.length-2){
-          
-        }else{
-          this.index++
-        }
-      }
-    })
   }
 })
