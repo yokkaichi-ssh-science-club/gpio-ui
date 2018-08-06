@@ -1,8 +1,11 @@
 <v-ons-page data-page="home">
   <custom-bar title="Home" backLabel="Tutorial"></custom-bar>
   <v-ons-list>
-    <v-ons-list-item>
+    <v-ons-list-item v-show="connected">
       <v-ons-button modifier="large" :disabled="loading" @click="claimSession">Claim a session</v-ons-button>
+    </v-ons-list-item>
+    <v-ons-list-item v-show="!connected">
+      <v-ons-button modifier="large" disabled>Not Available</v-ons-button>
     </v-ons-list-item>
     <v-ons-list-item modifier="chevron tappable" @click="otherEx">
       See other experiments
