@@ -9,6 +9,10 @@ exports.connect=()=>new Promise((resolve,reject)=>{
 
 })
 
+exports.isConnected=()=>{
+  return socket.connected
+}
+
 exports.claimSession=()=>new Promise((resolve,reject)=>{
   //resolve: successfully claimed
   //reject : failed to claim

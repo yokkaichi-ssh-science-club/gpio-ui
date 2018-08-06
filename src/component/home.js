@@ -8,7 +8,9 @@ module.exports=require("./home.html")({
     }
   },
   computed:{
-    
+    connected(){
+      return socket.isConnected()
+    }
   },
   methods:{
     async claimSession(){

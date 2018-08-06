@@ -8,14 +8,17 @@ module.exports=require("./hello.html")({
     
   },
   methods:{
-    async tutorial(){
-      await socket.connect()
+    tutorial(){
       this.$store.commit("push",{
         extends:require("./tutorial"),
         onsNavigatorProps:{
           itemName:"gravity",
           goNext:require("./home")
         }
+      })
+
+      socket.connect().catch(e=>{
+        return
       })
     }
   },
