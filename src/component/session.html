@@ -24,15 +24,16 @@
     
   </v-ons-list>
   <v-ons-alert-dialog :visible="result>0">
-    <span slot="title">Congratulations</span>
-    <p>Gravitional Acceleration has been calculated!</p>
+    <span slot="title">おめでとうございます</span>
+    <p>重力加速度が測定できました！</p>
     <div class="resWrap">
       <span class="result">{{result}}</span>
       <span class="meterpersecsec">m/s&sup2;</span>
     </div>
+    <p>※実際の環境と異なるため値が異なる場合があります</p>
     <div slot="footer">
-      <div class="alert-dialog-button" @click="other">See more</div>
-      <div class="alert-dialog-button" @click="back">Finish</div>
+      <div class="alert-dialog-button" @click="other">もっとみる</div>
+      <div class="alert-dialog-button" @click="back">終わる</div>
     </div>
   </v-ons-alert-dialog>
 </v-ons-page>

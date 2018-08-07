@@ -36,27 +36,27 @@ const lists = {
   "ffOpt":[{
     title:"光センサーを使った自由落下の実験",
     text:"この実験では、鉄球の自由落下にかかる時間を正確に測れる装置を作成しました。",
-    color:"#89c78a",
+    color:"#7cb342",
   },{
     img:require("../img/laser2.png"),
     title:"実験原理＆仕組み #1",
     text:"この実験では光センサー（レーザー光）を2つ使いました。2つ使うことによって鉄球の落下を検出することができます。",
-    color:"#89c78a",
+    color:"#7cb342",
   },{
     img:require("../img/laser_double.png"),
     title:"実験原理＆仕組み #2",
     text:"2つの光センサー間の距離を測っておき、鉄球を落下させます。その際の時間差を光センサーで検出することで、重力加速度を求めます。",
-    color:"#89c78a",
+    color:"#7cb342",
   },{
     img:require("../img/ffop_pic.png"),
     title:"実験装置の全体図",
     text:"実際に作った装置の仕組みです。鉄球を落下させる際、初速度を与えないように電磁石を使って鉄球を落下させました。",
-    color:"#89c78a",
+    color:"#7cb342",
   },{
     img:require("../img/g2yt2.png"),
     title:"関係式",
     text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
-    color:"#89c78a",
+    color:"#7cb342",
     buttons:[{
       label:"トップに戻る"
     }]
@@ -121,10 +121,6 @@ const lists = {
     title:"アルデバラン食",
     text:"この実験では、重力加速度を求めるためにアルデバラン食を使いました。",
     color:"#78909c",
-   },{
-    title:"なんでアルデバラン？",
-    text:"もちろん、天球上を動かないという性質を持つ恒星なら何でも構いません",
-    color:"#78909c",
   },{
     img:require("../img/aldebaran_formula.png"),
     title:"実験原理 #1",
@@ -137,16 +133,20 @@ const lists = {
     color:"#78909c",
   },{
     img:require("../img/aldebaran_en.gif"),
-    title:"ところで、アルデバラン食とはなんでしょうか？ ",
+    title:"アルデバラン食とは何？ ",
     text:"この画像を見てください。アルデバラン食は十数年に一度アルデバランという恒星が月に隠れる現象です。 この機会を生かして、私たちはアルデバラン食を観察しました。",
     color:"#78909c",
+   },{
+    title:"なんでアルデバランをつかったの？",
+    text:"もちろん、天球上を動かないという性質を持つ恒星なら何でも構いません。私たちが実験したときに丁度アルデバラン食が観測されたので、今回使いました。",
+    color:"#78909c", 
   },{
     img:require("../img/aldebaran_en.gif"),
     title:"実験原理 #3",
     text:"アルデバラン食開始と終了の時間、月に対するアルデバランの位置の変化を測定することで、月の移動距離とそれにかかる時間がわかります。これらを用いて月の角速度を求めました。",
     color:"#78909c",
   },{
-    img:require("../img/aldebaran_formula.png"), //png?
+    img:require("../img/aldebaran_formula.png"),
     title:"関係式",
     text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
     color:"#78909c",
@@ -158,22 +158,22 @@ const lists = {
     img:require("../img/spring_en.png"),
     title:"鉛直ばね振り子",
     text:"鉛直ばね振り子はバネと物体とをつないだ実験装置です。",
-    color:"#f9ace8",
+    color:"#f06292",
   },{
     img:require("../img/pendulum.png"),
     title:"実験原理",
     text:"物体を下に引っ張って放すと、物体は垂直に振動します。その周期を測ることから重力加速度を求めることができます。iPhoneを使い、振り子の振動を動画撮影しました。",
-    color:"#f9ace8",
+    color:"#f06292",
   },{
     img:require("../img/aokiware.png"),
     title:"解析方法",
     text:"この実験ではコマ送りの解析ができる自作ソフトウェアを作り、撮影した動画を解析しました。解析で得られたデータから、ばね振り子の周期を求めました。",
-    color:"#f9ace8",
+    color:"#f06292",
   },{
     img:require("../img/2pilingo.png"),
     title:"公式",
     text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
-    color:"#f9ace8",
+    color:"#f06292",
     buttons:[{
       label:"トップへ戻る"
     }]
@@ -217,10 +217,15 @@ module.exports=require("./tutorial.html")({
   },
   mounted(){
     document.body.addEventListener("keyup",e=>{
-      if (e.keyCode===32) {
+      if (e.keyCode===32||e.keyCode===39) {
         if(this.index>this.items.length-2){		  
         }else{
           this.index++
+        }
+      }
+      if (e.keyCode===37) {
+        if(this.index>0){
+          this.index--
         }
       }
     })
