@@ -100,7 +100,7 @@ const lists = {
     text:"この実験では2つの質量の異なる物体を糸でつなぎ、滑車にかけます。",
     color:"#62b8e5",
   },{
-    img:require("../img/electromg.png"),
+    img:require("../img/electromg2.png"),
     title:"実験原理",
     text:"2つの物体をささえていた手を放すと、物体は動き出します。それらの落下時間と落下した高さを測ることで重力加速度を求めることができます。この実験では初速度を与えないために電磁石を用いました。",
     color:"#62b8e5",
@@ -146,11 +146,6 @@ const lists = {
     title:"実験原理 #3",
     text:"アルデバラン食開始と終了の時間、月に対するアルデバランの位置の変化を測定することで、月の移動距離とそれにかかる時間がわかります。これらを用いて月の角速度を求めました。",
     color:"#78909c",
-  },{
-    img:require("../img/aldebaran_formula.png"),
-    title:"関係式",
-    text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
-    color:"#78909c",
     buttons:[{
       label:"トップへ戻る"
     }]
@@ -162,14 +157,14 @@ const lists = {
     color:"#f06292",
   },{
     img:require("../img/pendulum.png"),
-    title:"実験手法",
-    text:"物体を下に引っ張って放すと、物体は垂直に振動します。その周期を測ることから重力加速度を求めることができます。iPhoneを使い、振り子の振動を動画撮影しました。",
+    title:"実験原理",
+    text:"物体を下に引っ張って放すと、物体は単振動をします。この時、おもりに加わる力は重力とばねの復元力のみなので、単振動の周期を測ることから重力加速度を求めることができます。",
     color:"#f06292",
   },{
     img:require("../img/pendulum.png"),
-    title:"実験目的",
-    text:"。",
-    color:"#f9ace8",
+    title:"実験手法",
+    text:"この研究ではiPhoneを使い、振り子の振動を動画撮影することから単振動の周期を測定しました。",
+    color:"#f06292",
   },{
     img:require("../img/aokiware.png"),
     title:"解析方法",
@@ -177,7 +172,7 @@ const lists = {
     color:"#f06292",
   },{
     img:require("../img/2pilingo.png"),
-    title:"公式",
+    title:"関係式",
     text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
     color:"#f06292",
     buttons:[{
