@@ -122,6 +122,10 @@ const lists = {
     text:"この実験では、重力加速度を求めるためにアルデバラン食を使いました。",
     color:"#78909c",
    },{
+    title:"なんでアルデバラン？",
+    text:"もちろん、天球上を動かないという性質を持つ恒星なら何でも構いません",
+    color:"#78909c",
+  },{
     img:require("../img/aldebaran_formula.png"),
     title:"実験原理 #1",
     text:"地球の半径と、月と地球の距離はよく知られた値です。そのため、月の公転の角速度を測ることで上の関係式から、重力加速度を求めることができます。",
@@ -210,5 +214,15 @@ module.exports=require("./tutorial.html")({
   },
   created(){
     this.items=lists[this.itemName||"gravity"]
+  },
+  mounted(){
+    document.body.addEventListener("keyup",e=>{
+      if (e.keyCode===32) {
+        if(this.index>this.items.length-2){		  
+        }else{
+          this.index++
+        }
+      }
+    })
   }
 })
