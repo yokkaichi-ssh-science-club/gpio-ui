@@ -34,13 +34,14 @@ const lists = {
     }]
   }],
   "ffOpt":[{
+    img:require("../img/freefall.jpg"),
     title:"光センサーを使った自由落下の実験",
     text:"この実験では、鉄球の自由落下にかかる時間を正確に測れる装置を作成しました。",
     color:"#89c78a",
   },{
     img:require("../img/laser2.png"),
     title:"実験原理＆仕組み #1",
-    text:"この実験では光センサー（レーザー光）を2つ使いました。2つ使うことによって鉄球の落下を検出することができます。",
+    text:"この実験では光センサーとレーザー光を2つ使いました。2つ使うことによって鉄球の落下を検出することができます。",
     color:"#89c78a",
   },{
     img:require("../img/laser_double.png"),
@@ -145,11 +146,6 @@ const lists = {
     title:"実験原理 #3",
     text:"アルデバラン食開始と終了の時間、月に対するアルデバランの位置の変化を測定することで、月の移動距離とそれにかかる時間がわかります。これらを用いて月の角速度を求めました。",
     color:"#78909c",
-  },{
-    img:require("../img/aldebaran_formula.png"), //png?
-    title:"関係式",
-    text:"この実験では、得られた値をこの式に代入して重力加速度の値を算出しました。",
-    color:"#78909c",
     buttons:[{
       label:"トップへ戻る"
     }]
@@ -161,8 +157,13 @@ const lists = {
     color:"#f9ace8",
   },{
     img:require("../img/pendulum.png"),
-    title:"実験原理",
+    title:"実験手法",
     text:"物体を下に引っ張って放すと、物体は垂直に振動します。その周期を測ることから重力加速度を求めることができます。iPhoneを使い、振り子の振動を動画撮影しました。",
+    color:"#f9ace8",
+  },{
+    img:require("../img/pendulum.png"),
+    title:"実験目的",
+    text:"。",
     color:"#f9ace8",
   },{
     img:require("../img/aokiware.png"),
