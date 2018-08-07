@@ -34,6 +34,7 @@ const lists = {
     }]
   }],
   "ffOpt":[{
+    img:require("../img/freefall.jpg"),
     title:"光センサーを使った自由落下の実験",
     text:"この実験では、鉄球の自由落下にかかる時間を正確に測れる装置を作成しました。",
     color:"#7cb342",
@@ -161,9 +162,14 @@ const lists = {
     color:"#f06292",
   },{
     img:require("../img/pendulum.png"),
-    title:"実験原理",
+    title:"実験手法",
     text:"物体を下に引っ張って放すと、物体は垂直に振動します。その周期を測ることから重力加速度を求めることができます。iPhoneを使い、振り子の振動を動画撮影しました。",
     color:"#f06292",
+  },{
+    img:require("../img/pendulum.png"),
+    title:"実験目的",
+    text:"。",
+    color:"#f9ace8",
   },{
     img:require("../img/aokiware.png"),
     title:"解析方法",
